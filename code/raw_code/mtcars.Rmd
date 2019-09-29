@@ -1,0 +1,18 @@
+---
+title: "mtcars"
+author: "Manfredo Novella"
+date: "28-09-2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## mtcars data
+
+Let's take a look at the data loco!
+
+```{r cars}
+summary(mtcars)
+``` 
